@@ -16,7 +16,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "maier/alpine-3.4-x86_64"
 
   config.vm.define "node" do |node|
-    node.vm.network :private_network, :ip => "172.16.78.250"
     node.vm.provider "virtualbox" do |v|
       v.memory = 1536
     end
