@@ -60,7 +60,7 @@ EOF
 mkdir -p /usr/share/nginx/html
 cat <<EOF > /usr/share/nginx/html/index.html
 <!doctype html>
-<title>Alpine Docker and Nginx</title>
+<title>Alpine Nginx</title>
 
 <h2>Website served by Nginx inside an Alpine VirtualBox VM</h2>
 
@@ -74,7 +74,8 @@ end
 
 def start_nginx()
     $script =<<SCRIPT
-nginx -g daemon off
+mkdir -p /var/lib/nginx/logs
+nginx -g "daemon off;" &
 SCRIPT
     return $script
 end
