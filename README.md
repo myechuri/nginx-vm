@@ -1,12 +1,14 @@
 # nginx-vm
-Nginx VirtualBox Vagrant env
+Nginx on {Alpine, VirtualBox, Vagrant}
 
-# Disclaimer
+### Disclaimer
 
 Tested in the following env:
 
 Host: Ubuntu ``16.04 Server``
+
 Vagrant ``1.8.1``
+
 VirtualBox ``5.0``
 
 ### Prereqs
