@@ -1,5 +1,5 @@
 # nginx-vm
-Nginx on {Alpine, VirtualBox, Vagrant}
+Nginx on {Alpine 3.4, VirtualBox, Vagrant}
 
 ### Disclaimer
 
